@@ -1,0 +1,135 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-family: 'Cabin', sans-serif;
+  }
+
+
+a .logo{
+    font-family: 'Lobster', cursive;
+}
+
+div{
+    font-family: 'Cabin', sans-serif;
+}
+
+.carousel-indicators li {
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    background-color:  #373A3C;
+   
+}
+
+.carousel-indicators{
+    position: relative;
+}
+
+div .carousel img{
+    width: 100%;
+    max-height: 460px;
+}
+
+footer p{
+    font-family: 'lobster' , cursive;
+    font-size: 30pt;
+}
+
+span {
+    font-family: 'Lobster', cursive;
+    font-size: 48px;
+  }
+
+section h3{
+    width: 700;
+    
+}
+
+section p{
+    width: 400;
+    
+}
+
+.newsletter {
+    background-color: #dc3545;
+    color: #ffffff;
+    size: 33.375rem;
+}
+
+h2{
+   font-size:38pt; 
+   font-weight: bold;
+   margin-top: 1.3rem;
+}
+
+h3{
+    font-size:18pt; 
+    font-weight: bold;
+    margin-bottom: 1.3rem;
+ }
+
+ h3 .subtitulos{
+    font-size:12pt; 
+    font-weight: bold;
+    margin-bottom: 1.3rem;
+ }
+
+.preparacion {
+    margin: auto;
+    max-width: 100px;
+  }
+
+.subrayado {
+text-decoration: underline;
+font-size:20pt ;
+font-weight: bold;
+}
+
+div .card-body{
+    font-size: 20pt;
+    width: 400;
+    margin-top: 30px;
+}   
+
+.card-title{
+    font-size: 23pt;
+    font-weight: bold;
+    color: #373A3C;
+    padding-bottom: 1.3rem;
+}
+
+.card-text{
+    font-size: 16pt;
+    font-weight: normal;
+    color: #373A3C;
+}
+
+section .recetas{
+    font-size: 20pt;
+}
+
+div button{
+    text-decoration: none;
+}
+
+.typeform-share{
+    text-decoration: none;
+    color: white;
+}
+
+.separation{
+    border: 1px solid;
+    color: black;
+    width: 100%;
+}
+
+.subtitulos{
+    color: #373A3C;
+    font-weight: bold;
+}
+
+span .text-logotipo{
+    font-size: 10%;
+}
+

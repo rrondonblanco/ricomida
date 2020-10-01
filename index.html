@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!--CSS de Bootstrap 4.5.x-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--Mi Estilo-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <title>Ricomida</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+       
+        <div class="container">
+         <a class="navbar-brand logo" href="#"><h1><span class="navlogo">Ricomida</span></h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#recetas">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#newsletter">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <section id="inicio" class="container p-4 mt-5" >
+        <div class="container my-3 pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 ">
+                    <img src="assets/img/principal.jpg" class="img-fluid" alt="img-pizza" >
+                </div>
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <h2>PIZZA AL ESTILO CHICAGO CON ESPINCAS Y CHAMPIÑONES</h2>
+                    <hr class="separation">
+                    <h3 class="subtitulos">110 MIN / 6 a 8 PORCIONES</h3>
+                    <button type="button" class="btn btn-outline-secondary" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Presiona para enviar a tu correo"> Enviar por correo
+                    </button>
+                    <button type="button" class="btn btn-outline-secondary" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Agrega esta receta a tus favoritos"> Añadir a favoritos
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <div class="container mt-5 d-none d-sm-none d-md-block">
+        <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-3"><img src="assets/img/slider-1.png" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/slider-2.png" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/slider-3.png" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/slider-4.png" alt=""></div>
+                                
+                        </div>
+                    </div>
+                
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-3"><img src="assets/img/slider-5.png" alt=""></div>
+                                
+                            <div class="col-3"><img src="assets/img/slider-6.png" alt=""></div>
+                                
+                            <div class="col-3"> <img src="assets/img/slider-7.png" alt=""></div>
+                               
+                            <div class="col-3"><img src="assets/img/slider-8.png" alt=""></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <ol class="carousel-indicators pt-3">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <br>
+            </div>
+        </div>
+    </div> 
+
+    <section class="container p-3 my-1 " id="recetario">
+        <hr class="separation">
+        <div class="container p-6 text">
+          <div class="row">
+            <div class="col-md-6" >
+                <div class="card-body">
+                  <p class=" text-uppercase d-3 subrayado" id="preparacion" >Ingredientes</p>
+                  <p class="py-3">Masa</p>
+                  <p>75 g. harina de trigo de fuerza</p>
+                  <p>240 g. agua</p>
+                  <p>8 g. sal</p>
+                  <p>45 g. aceite de girasol</p>
+                  <p>10 g. levadura seca de panadero</p>
+                  <p>15 g. azúcar</p>
+                  <p>200 g. queso mozarella rallado</p>
+                  <p>300 g. salsa de tomate</p>
+                  <p>Queso Parmesano</p>
+              </div>
+            </div>
+            <div class="col-md-6" >
+                <div class="card-body">
+                  <p class=" text-uppercase d-3 subrayado">preparación</p>
+                  <ol class="py-5">
+                    <li>
+                      <p>Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales. </p>
+                    </li>
+                    <li>
+                      <p>Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30 minutos. Sazonar con sal y pimienta a gusto. Reservar.</p>
+                    <li>
+                      <p>Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que hayan votado los vegetales. Reservar.</p>
+                    </li>
+                    <li>
+                      <p>Calentar el horno a 220C.</p>
+                    <li>
+                      <p>Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente espolvorear el queso rallado.</p>
+                    </li>
+                    <li>
+                      <p>Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.</p>
+                    </li>
+                  </ol>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="container my-5 py-5" id="recetas">
+        <hr class="separation">
+        <h2 class="container-fluid text-center pt-4 pb-5  font-weight-bold my-5">RECETAS RELACIONADAS</h2>
+        <div class="card-deck pb-5">
+            <div class="card ">
+                <a href="#" data-toggle="modal" data-target="#panqueques"><img src="assets/img/recipe-card-1.png" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+               
+              </div>
+            </div>
+            <div class="card">
+                <a href="#" data-toggle="modal" data-target="#tiramisu"><img src="assets/img/recipe-card-2.png" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">TIRAMISÚ</h5>
+                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                
+              </div>
+            </div>
+            <div class="card">
+                <a href="#" data-toggle="modal" data-target="#plateada"><img src="assets/img/recipe-card-3.png" class="card-img-top" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">PLATEADA</h5>
+                <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="panqueques" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PANQUEQUES CON MANJAR Y CREMA</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/recipe-card-1.png" class="img-fluid my-3" alt="panqueques">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      <!-- Modal -->
+    <div class="modal fade" id="tiramisu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalTiramisu">TIRAMISÚ</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/recipe-card-2.png" class="img-fluid my-3" alt="tiramisu">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+    <div class="modal fade" id="plateada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title " id="modalPlateada">PLATEADA</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img src="assets/img/recipe-card-3.png" class="img-fluid my-3" alt="plateada">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea officia numquam nisi quaerat minima quod, magnam est asperiores itaque dolore. Soluta natus repellendus earum porro blanditiis. Repellat fugit exercitationem officiis.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container-fluid text-center bg-danger text-white newsletter py-5" id="newsletter" >
+        <div class="card-body">
+          <h2 class="text-uppercase">Suscríbete en nuestro Newsletter</h2>
+          <h3 class="card-subtitle mb-2">y obtén las mejores recetas que tenemos en <span class="text-logotipo">Ricomida</span></h3>
+          
+            
+          
+          <button type="button" class="btn btn-default border border-white text-white btn-lg my-5 px-5" data-toggle="modal" data-target="#exampleModal" data-placement="bottom" title="Enviar Email">Empezar</button>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-center" id="contacto">SUSCRIBETE</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="typeform-widget" data-url="https://form.typeform.com/to/KtewbtvO" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=KtewbtvO&utm_source=typeform.com-01EK81PS9YFHTSW3E8N8AHXYFZ-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+    <footer class="bg-dark text-center text-light p-3">
+        <p>Ricomida</p>
+    </footer>
+
+    <!--jQuery 3.3.1-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!--Popper JS 1.14.3-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!--Boostrap JS 4.2.1-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--Mi Script-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
